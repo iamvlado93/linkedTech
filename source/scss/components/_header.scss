@@ -4,34 +4,35 @@
     height: 10vh;
 }
 
-.logo__container {
-    display: flex;
-}
-
-.logo__image-container {
-    @include flex-align-center;
-}
-
-.logo__name {
-    margin-left: 0.4rem;
-    font-family: $header-font;
-    font-size: 0.8rem;
-    color: $blue;
-    text-transform: uppercase;
-}
-
 .header__items {
     @include flex-align-center;
     justify-content: space-between;
-    
 }
 
-.header__info-list,
-.header__profile-list {
+.logo {
+    &__container {
+        display: flex;
+    }
+    &__image-container {
+        @include flex-align-center;
+    }
+    &__name {
+        margin-left: 0.4rem;
+        font-family: $header-font;
+        font-size: 0.8rem;
+        color: $blue;
+        text-transform: uppercase;
+    }
+}
+
+.nav {
+    &__info-list,
+    &__profile-list {
     @include flex-align-center;
     padding: 0;
     list-style-type: none;
     text-transform: uppercase;
+    }
 }
 
 .info-list__item,

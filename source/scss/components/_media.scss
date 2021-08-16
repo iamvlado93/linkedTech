@@ -3,9 +3,11 @@
         height: 10vh;
     }
     
-    .header__info-list,
-    .header__profile-list {
+    .nav {
+        &__info-list,
+        &__profile-list {
         display: none;
+        }
     }
 
     .menu-hamburger {
