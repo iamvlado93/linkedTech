@@ -1,2 +1,9 @@
-@import './components//wrap';
+// Mixins & Variables
+@import './config/mixins';
+@import './config/variables';
+// Wrapper
+@import './components/wrap';
+// Header
 @import './components/header';
+// Media
+@import './components/media';

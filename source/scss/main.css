@@ -13,14 +13,104 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  max-width: 1920px;
-  margin: 0 auto;
+  max-width: 100vw;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-color: green;
+}
+
+.main-container {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .header {
-  color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.logo__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.logo__image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo__name {
+  margin-left: 0.4rem;
+  font-family: "Hind Siliguri";
+  font-size: 0.8rem;
+  color: #247CC0;
+  text-transform: uppercase;
+}
+
+.header__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__info-list,
+.header__profile-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+  list-style-type: none;
+  text-transform: uppercase;
+}
+
+.info-list__item,
+.profile-list__item {
+  margin: 0.4rem;
+  font-family: "Hind Siliguri";
+  font-size: 0.8rem;
+}
+
+.menu-hamburger {
+  display: none;
+}
+
+a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  color: #030D15;
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    height: 10vh;
+  }
+  .header__info-list,
+  .header__profile-list {
+    display: none;
+  }
+  .menu-hamburger {
+    display: block;
+  }
 }
 /*# sourceMappingURL=main.css.map */

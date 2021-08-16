@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+    .header {
+        height: 10vh;
+    }
+    
+    .header__info-list,
+    .header__profile-list {
+        display: none;
+    }
+
+    .menu-hamburger {
+        display: block;
+    }
+}
