@@ -1,0 +1,53 @@
+.header {
+    @include flex-align-center;
+    width: 100%;
+    height: 10vh;
+}
+
+.header__items {
+    @include flex-align-center;
+    justify-content: space-between;
+}
+
+.logo {
+    &__container {
+        display: flex;
+    }
+    &__image-container {
+        @include flex-align-center;
+    }
+    &__name {
+        margin-left: 0.4rem;
+        font-family: $header-font;
+        font-size: 0.8rem;
+        color: $blue;
+        text-transform: uppercase;
+    }
+}
+
+.nav {
+    &__info-list,
+    &__profile-list {
+    @include flex-align-center;
+    padding: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+    }
+}
+
+.info-list__item,
+.profile-list__item {
+    margin: 0.4rem;
+    font-family: $header-font;
+    font-size: 0.8rem;
+}
+
+.menu-hamburger {
+    display: none;
+}
+
+a {
+    display: flex;
+    text-decoration: none;
+    color: $black;
+}
