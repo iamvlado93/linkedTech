@@ -87,6 +87,106 @@ a {
   color: #030D15;
 }
 
+.container__inner-main {
+  margin-top: 3.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container__inner-description {
+  width: 48%;
+  font-family: 'Hind Siliguri';
+}
+
+.container__inner-title {
+  color: #C72535;
+  text-transform: uppercase;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.145em;
+}
+
+.container__inner-text__big {
+  margin: 0;
+  font-weight: 400;
+  font-size: 3.8rem;
+  line-height: 4.8rem;
+}
+
+.container__inner-text__big-background {
+  font-weight: 600;
+  background-color: #247cc033;
+  color: #247CC0;
+}
+
+.container__inner-text__small {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  opacity: 60%;
+}
+
+.container__inner-prices {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container__inner-button {
+  height: 3.3rem;
+  width: 9.4rem;
+  border: transparent;
+  background-color: #247CC0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container__inner-price__prev {
+  opacity: 50%;
+}
+
+.container__inner-price {
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.container__inner-image {
+  width: 48%;
+}
+
+img {
+  width: 100%;
+}
+
+.brands__container-inner {
+  margin: 2rem 0 5rem 0;
+  padding: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-shadow: 0px 45px 30px 0px rgba(34, 60, 80, 0.25);
+          box-shadow: 0px 45px 30px 0px rgba(34, 60, 80, 0.25);
+}
+
+.brands___image-container {
+  width: 10.1rem;
+}
+
 @media only screen and (max-width: 768px) {
   .header {
     height: 10vh;
