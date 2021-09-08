@@ -1,0 +1,45 @@
+.recent {
+    &__products {
+        margin-top: 8.25rem;
+    }
+
+    &__container-inner {
+        @include flex-justify-between;
+    }
+
+    &__items {
+        font-weight: 600;
+        margin: 1rem;
+    }
+
+    &__pictures {
+        width: 200px;
+        width: 16.5rem;
+        height: 15.5rem;
+    }
+
+    &__items-title {
+        font-family: $header-font;
+    }
+
+    &__items-text {
+        opacity: 60%;
+        font-weight: 400;
+    }
+
+    &__items-price {
+        &__container {
+            @include flex-align-center;
+        }
+    }
+}
+
+.price__container-previous {
+    margin-left: 0.5rem;
+    opacity: 60%;
+}
+
+.checked {
+    color: orange;
+}
+
