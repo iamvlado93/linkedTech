@@ -1,0 +1,63 @@
+.container {
+    &__inner-main {
+        margin-top: 3.3rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__inner-description {
+        width: 48%;
+        font-family: 'Hind Siliguri';
+    }
+    &__inner-title {
+        color: #C72535;
+        text-transform: uppercase;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.145em;
+    }
+    &__inner-text__big {
+        margin: 0;
+        font-weight: 400;
+        font-size: 3.8rem;
+        line-height: 4.8rem;
+    }
+    &__inner-text__big-background {
+        font-weight: 600;
+        background-color: #247cc033;
+        color: #247CC0;
+    }
+    &__inner-text__small {
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        opacity: 60%;
+    }
+    &__inner-prices {
+        width: 60%;
+        display: flex;
+        align-items: center;
+    }
+    &__inner-button {
+        height: 3.3rem;
+        width: 9.4rem;
+        border: transparent;
+        background-color: #247CC0;
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+    }
+    &__inner-price__prev {
+        opacity: 50%;
+    }
+    &__inner-price {
+        margin: 0rem 1rem 0rem 1rem;
+    }
+    &__inner-image {
+        width: 48%;
+    }
+}
+
+img {
+    width: 100%
+}
