@@ -1,0 +1,43 @@
+.about {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 49%;
+        padding: 1rem;
+    }
+    &__right {
+        display: flex;
+        width: 49%;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    &__img {
+       width: 70%;
+       height: 70%;
+    }
+    &__text {
+        padding-top: 5rem;
+        width: 65%;
+        color: #030d15;
+        opacity: 60%;
+    }
+    &__title h5 {
+        color: #C72535;
+    }
+    &__list {
+        padding: 0;
+        list-style-type: none;
+        &-item {
+            display: flex;
+            align-items: center;
+            & p {
+                margin: 1rem;
+            }
+        }
+    }
+}
