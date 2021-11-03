@@ -238,6 +238,38 @@ img {
   color: orange;
 }
 
+.special__offer {
+  margin-top: 8.25rem;
+}
+
+.special__container-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.special__container-inner__left, .special__container-inner__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin: 0.5rem;
+  width: 44.6rem;
+  height: 22.5rem;
+  background: -webkit-gradient(linear, left top, right top, color-stop(2%, #ee74f6), color-stop(40%, #1e6eb3), to(#1e6eb3));
+  background: linear-gradient(90deg, #ee74f6 2%, #1e6eb3 40%, #1e6eb3 100%);
+}
+
+.special__drone, .special__camera {
+  width: 100%;
+}
+
 @media only screen and (max-width: 768px) {
   .header {
     height: 10vh;
