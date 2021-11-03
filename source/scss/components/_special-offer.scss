@@ -5,17 +5,15 @@
     &__container-inner {
         display: flex;
         justify-content: space-between;
+        align-items: center;
         &__left, &__right {
             display: flex;
             align-items: center;
+            padding: 2rem;
             color: rgb(255, 255, 255);
             margin: 0.5rem;
-            width: 44.6rem;
-            height: 22.5rem;
+            height: 16rem;
             background: linear-gradient(90deg, rgba(238,116,246,1) 2%, rgba(30,110,179,1) 40%, rgba(30,110,179,1) 100%);
         }
-    }
-    &__drone, &__camera {
-        width: 100%;
     }
 }
