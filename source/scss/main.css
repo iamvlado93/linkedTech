@@ -249,6 +249,9 @@ img {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .special__container-inner__left, .special__container-inner__right {
@@ -258,16 +261,12 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2rem;
   color: white;
   margin: 0.5rem;
-  width: 44.6rem;
-  height: 22.5rem;
+  height: 16rem;
   background: -webkit-gradient(linear, left top, right top, color-stop(2%, #ee74f6), color-stop(40%, #1e6eb3), to(#1e6eb3));
   background: linear-gradient(90deg, #ee74f6 2%, #1e6eb3 40%, #1e6eb3 100%);
-}
-
-.special__drone, .special__camera {
-  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
