@@ -3,16 +3,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
     &__left {
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 49%;
-        padding: 1rem;
+        width: 48%;
+        padding: 0.5rem;
     }
     &__right {
         display: flex;
-        width: 49%;
+        width: 48%;
         flex-direction: column;
         justify-content: space-evenly;
     }
@@ -21,13 +26,15 @@
        height: 70%;
     }
     &__text {
-        padding-top: 5rem;
+        padding-top: 2rem;
         width: 65%;
         color: #030d15;
         opacity: 60%;
     }
     &__title h5 {
         color: #C72535;
+        opacity: 60%;
+        font-weight: 500;
     }
     &__list {
         padding: 0;
