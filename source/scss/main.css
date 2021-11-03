@@ -3,6 +3,7 @@ body {
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  font-family: 'Hind Siligurdi';
 }
 
 .main-container {
@@ -88,7 +89,7 @@ a {
 }
 
 .container__inner-main {
-  margin-top: 3.3rem;
+  margin-top: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -171,7 +172,7 @@ img {
 }
 
 .brands__container-inner {
-  margin: 2rem 0 5rem 0;
+  margin: 5rem 0 5rem 0;
   padding: 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -188,7 +189,7 @@ img {
 }
 
 .recent__products {
-  margin-top: 8.25rem;
+  margin-top: 10rem;
 }
 
 .recent__container-inner {
@@ -239,7 +240,7 @@ img {
 }
 
 .special__offer {
-  margin-top: 8.25rem;
+  margin-top: 10rem;
 }
 
 .special__container-inner {
@@ -267,6 +268,81 @@ img {
   height: 16rem;
   background: -webkit-gradient(linear, left top, right top, color-stop(2%, #ee74f6), color-stop(40%, #1e6eb3), to(#1e6eb3));
   background: linear-gradient(90deg, #ee74f6 2%, #1e6eb3 40%, #1e6eb3 100%);
+}
+
+.about {
+  margin-top: 8rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 49%;
+  padding: 1rem;
+}
+
+.about__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.about__img {
+  width: 70%;
+  height: 70%;
+}
+
+.about__text {
+  padding-top: 5rem;
+  width: 65%;
+  color: #030d15;
+  opacity: 60%;
+}
+
+.about__title h5 {
+  color: #C72535;
+}
+
+.about__list {
+  padding: 0;
+  list-style-type: none;
+}
+
+.about__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about__list-item p {
+  margin: 1rem;
 }
 
 @media only screen and (max-width: 768px) {
