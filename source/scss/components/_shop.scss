@@ -1,0 +1,37 @@
+.shop {
+    &__prices {
+        display: flex;
+        align-items: center;
+        & p {
+            margin: 0;
+        }
+    }
+    &__item {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.103);
+    }
+    &__inner-price__prev {
+        margin-left: 0.5rem;
+    }
+    &__main-container {
+        display: flex;
+        flex-direction: column;  
+    }
+    &__upper-container {
+        text-align: center;
+    }
+    &__lower-container {
+        display: flex;
+        justify-content: space-between;
+        &__left, &__center, &__right {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 33%;
+            & div {
+                
+            }
+        }
+    }
+}
