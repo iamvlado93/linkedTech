@@ -542,6 +542,48 @@ img {
   width: 33%;
 }
 
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  background-color: #E6EDF2;
+  height: 17rem;
+}
+
+.contacts__info p {
+  width: 20rem;
+  color: #030D15;
+}
+
+.contacts__info h4 {
+  color: #C72535;
+  opacity: 60%;
+}
+
+.contacts__button {
+  height: 2.2rem;
+  width: 6rem;
+  background-color: #247CC0;
+}
+
+.contacts__button span {
+  font-family: 'Hind Siligurdi';
+  color: cornsilk;
+  font-weight: 600;
+  border: 1px solid rgba(0, 0, 0, 0.062);
+}
+
+input[type=text] {
+  height: 0.5rem;
+  padding: 12px 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .header {
     height: 10vh;

@@ -1,0 +1,31 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #E6EDF2;
+    height: 17rem;
+    &__info p {
+        width: 20rem;
+        color: #030D15;
+    }
+    &__info h4 {
+        color: #C72535;
+        opacity: 60%;
+    }
+    &__button {
+        height: 2.2rem;
+        width: 6rem;
+        background-color: #247CC0;
+        & span {
+            font-family: 'Hind Siligurdi';
+            color: cornsilk;
+            font-weight: 600;
+            border: 1px solid rgba(0, 0, 0, 0.062);
+        }
+    }
+}
+
+input[type=text] {
+    height: 0.5rem;
+    padding: 12px 20px;
+  }
