@@ -1,3 +1,46 @@
+@media only screen and (max-width: 1024px) {
+    .container__inner {
+        &-description {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        }
+        &-main {
+        flex-direction: column-reverse;
+        }
+        &-title, &-text__big, &-text__small {
+            font-size: 1rem;
+            text-align: center;
+        }
+        &-prices {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        &-button {
+            margin-top: 1rem;
+            width: 100%;
+        }
+        
+    }
+
+    .recent {
+        &__container-inner {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        &__pictures {
+           
+            width: 30rem;
+            height: 28rem;
+        }
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .header {
         height: 10vh;
