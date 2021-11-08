@@ -25,6 +25,64 @@
         
     }
 
+    .special__container-inner {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about {
+        &__container {
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+        }
+        &__left {
+            margin-top: 2rem;
+        }
+    }
+
+    .popular {
+        &__lower-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            &__item {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 70%;
+            }
+        }
+        &__list-item {
+            a {
+                font-size: 0.6rem;
+            }
+        }
+    }
+    
+
+    .shop {
+        &__prices {
+            & span, & s {
+                font-size: 0.7rem;
+            }
+        }
+    }
+    
+
+    .contacts {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer {
+        &__column {
+            display: none;
+        }
+    }
+    
     .recent {
         &__container-inner {
             display: flex;
