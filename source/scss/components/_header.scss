@@ -50,4 +50,10 @@ a {
     display: flex;
     text-decoration: none;
     color: $black;
+    &:hover {
+        color: #C72535;
+        opacity: 60%;
+        transform: scale(1.02);
+        transition: .2s ease-in-out;
+    }
 }

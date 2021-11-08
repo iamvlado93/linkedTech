@@ -1,15 +1,19 @@
 .recent {
-    &__products {
-        margin-top: 10rem;
-    }
-
     &__container-inner {
         @include flex-justify-between;
     }
 
     &__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
         font-weight: 600;
         margin: 1rem;
+        & s {
+            margin-left: 0.8rem;
+            opacity: 60%;
+        }
     }
 
     &__pictures {
@@ -23,6 +27,7 @@
     }
 
     &__items-text {
+        text-align: left;
         opacity: 60%;
         font-weight: 400;
     }
@@ -34,12 +39,7 @@
     }
 }
 
-.price__container-previous {
-    margin-left: 0.5rem;
-    opacity: 60%;
-}
-
 .checked {
-    color: orange;
+    color: #C72535;
 }
 

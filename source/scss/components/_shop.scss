@@ -1,18 +1,19 @@
 .shop {
-    &__prices {
-        display: flex;
-        align-items: center;
-        & p {
-            margin: 0;
-        }
-    }
     &__item {
         margin: 0.5rem;
         padding: 0.5rem;
         border: 1px solid rgba(0, 0, 0, 0.103);
     }
-    &__inner-price__prev {
-        margin-left: 0.5rem;
+    &__prices {
+        display: flex;
+        align-items: center;
+        & s {
+            margin-left: 1rem;
+        }
+    }
+    & .shop__icons {
+        display: flex;
+        justify-content: space-evenly;
     }
     &__main-container {
         display: flex;
@@ -20,6 +21,9 @@
     }
     &__upper-container {
         text-align: center;
+        & h4 {
+            color: #C72535;
+        }
     }
     &__lower-container {
         display: flex;
@@ -32,3 +36,4 @@
         }
     }
 }
+

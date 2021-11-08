@@ -1,6 +1,6 @@
 .container {
     &__inner-main {
-        margin-top: 4rem;
+        margin-top: 3rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -35,13 +35,14 @@
         opacity: 60%;
     }
     &__inner-prices {
-        width: 60%;
         display: flex;
         align-items: center;
+        justify-content: center;
+        width: 50%;
     }
     &__inner-button {
         height: 3.3rem;
-        width: 9.4rem;
+        width: 18.4rem;
         border: transparent;
         background-color: #247CC0;
         color: rgb(255, 255, 255);

@@ -1,5 +1,5 @@
 .about {
-    margin-top: 5rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,9 +21,15 @@
         flex-direction: column;
         justify-content: space-evenly;
     }
+    &__vector {
+        position: relative;
+        width: 78%;
+        height: 90%;
+    }
     &__img {
-       width: 70%;
-       height: 70%;
+        position: absolute;
+        
+        width: 30%;
     }
     &__text {
         padding-top: 1rem;
