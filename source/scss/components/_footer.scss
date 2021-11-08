@@ -42,12 +42,36 @@
         }
         & div {
             display: flex;
-            align-items: center;
+            flex-direction: column;
             & a {
                 margin-right: 1rem;
             };
             & img {
                 margin-right: 1rem;
+            }
+        }
+    }
+    &__social-icons {
+        display: flex;
+        flex-direction: column;
+        width: 24%;
+        color: white;
+        opacity: 60%;
+        &__upper {
+            & a {
+                color: white;
+            }
+        }
+        &__middle, &__lower {
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            & a {
+                padding-right: 1.5rem;
+                color: white;
+            }
+            & img {
+                padding-right: 1rem;
             }
         }
     }

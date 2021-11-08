@@ -22,7 +22,6 @@
             margin-top: 1rem;
             width: 100%;
         }
-        
     }
 
     .special__container-inner {
@@ -78,7 +77,15 @@
     }
 
     .footer {
-        &__column {
+        display: flex;
+        &__social-icons {
+            width: 100%;
+            display: flex;
+            align-items: center;
+        }
+        &__column,
+        & .footer__social-icons__upper,
+        & .footer__social-icons__lower {
             display: none;
         }
     }
